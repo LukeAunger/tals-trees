@@ -26,7 +26,17 @@
 	
 	<style>
 		.hero-section {
-			background-image: url('images/Summerleze_ChristmasTree.jpeg');
+			background-image: url('images/breakwaterTree-cropped.jpeg.jpeg');
+			background-size: cover;
+			background-position: center bottom;
+			background-repeat: no-repeat;
+			min-height: 75vh;
+			position:relative;
+			overflow: hidden;
+		}
+
+		.hero-section-2 {
+			background-image: url('images/breakwaterTree.jpeg');
 			background-size: cover;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -35,12 +45,12 @@
 			overflow: hidden;
 		}
 
-		.hero-section-2 {
-			background-image: url('images/Summerleze_ChristmasTreeNoLock.jpeg');
+		.hero-section-3 {
+			background-image: url('images/talanandsarah.jpeg');
 			background-size: cover;
 			background-position: center center;
 			background-repeat: no-repeat;
-			min-height: 50vh;
+			min-height: 55vh;
 			position: relative;
 			overflow: hidden;
 		}
@@ -51,6 +61,13 @@
 			text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 			color: #ffffff;
 		}
+
+		.hero-section h3 {
+			font-weight: bold;
+			font-size: clamp(1rem, 2vw, 3rem);
+			text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+			color: #ffffff;
+		}
 		
 		@keyframes twinkle {
 			0% { opacity: 0.8; }
@@ -58,17 +75,22 @@
 		}
 		
 		.goal-section {
-			background: linear-gradient(135deg, #CD5C5C, #F4A460);
+			background: linear-gradient(135deg, #f56303, #f6cb13);
+			color: white;
+		}
+
+		.goal-section-2 {
+			background: linear-gradient(135deg, #f6cb13, #f56303);
 			color: white;
 		}
 		
 		.research-section {
-			background: linear-gradient(135deg, #708090, #A9A9A9);
+			background: linear-gradient(135deg, #abc240, #4b663d);
 			color: white;
 		}
 		
 		.form-section {
-			background: linear-gradient(135deg, #5F9EA0, #4682B4);
+			background: linear-gradient(135deg, #4b663d, #678545);
 		}
 		
 		.content-overlay {
@@ -110,6 +132,13 @@
 		a {
 			color: #000;
 		}
+
+		ul {
+			list-style-type: disc;
+		}
+		li {
+			text-align: left;
+		}
 		
 	</style>
 </head>
@@ -117,9 +146,6 @@
 	<!-- Hero Section -->
 	<section class="hero-section uk-flex uk-flex-center uk-flex-middle uk-text-center">
 		<div class="uk-container">
-			<h1 class="uk-heading-xlarge uk-margin-remove">
-				Talan's Trees
-			</h1>
 		</div>
 	</section>
 
@@ -128,20 +154,9 @@
 		<div class="uk-container uk-text-center">
 			<div class="content-overlay uk-padding-large uk-margin-auto" style="max-width: 600px;">
 				<p class="uk-text-lead uk-margin-remove white">
-					Talan’s Trust was set up in memory of Bude boy Talan Penny who died from a childhood cancer in 2017, he was just 19. A sporty, funny and great friend to all he is missed greatly.<br/><br/>
-
-					Since Talan’s Trust was founded we have donated £140,000 to the Institute of Cancer research and raise awareness of the signs and symptoms of childhood cancer.<br/>
-					Childhood cancer is the biggest cause of non trauma death in children and young adults, did you know 1 in 500 children in the U.K. will be diagnosed with cancer by the age of 14?<br/>
-					Each year over 4000 children and young people are diagnosed with cancer.
+					We are excited to launch Tal’s Trees for 2026 and hope you can help us raise much needed funds to help with both research and development of kinder and less toxic treatments for children with cancer, whilst continuing to raise awareness of the signs and symptoms to look out for. 
 				</p>
-			</div>
-		</div>
-	</section>
-	
-	<!-- Beach/Tree Visual Section -->
-	<section class="hero-section-2 uk-section beach-tree" style="min-height: 40vh;">
-		<div class="uk-container uk-flex uk-flex-center uk-flex-middle uk-height-1-1">
-			<div class="uk-text-center">
+				<img src="images/christmas-wreath.png" style="max-width: 5vh;">
 			</div>
 		</div>
 	</section>
@@ -150,22 +165,87 @@
 	<section class="research-section uk-section uk-section-large">
 		<div class="uk-container uk-text-center">
 			<div class="content-overlay uk-padding-large uk-margin-auto" style="max-width: 600px;">
+				<h1 class="white">
+					Why
+				</h1>
 				<p class="uk-text-lead uk-margin-remove white">
-					So we are excited to launch Tal’s Trees for 2026 and hope you can help us raise much needed funds to help with both research and development of kinder and less toxic treatments for children, whilst continuing to raise awareness of the signs and symptoms to look out for. 
+					Talan’s Trust was set up in memory of Bude boy Talan Penny who died from a childhood cancer in 2017, he was just 19. A sporty, funny and great friend to all he is missed greatly.<br/><br/>
+
+					Since Talan’s Trust was founded we have donated £140,000 to the Institute of Cancer research and raise awareness of the signs and symptoms of childhood cancer.<br/>
+					Childhood cancer is the biggest cause of non trauma death in children and young adults, did you know 1 in 500 children in the U.K. will be diagnosed with cancer by the age of 14?<br/>
+					Each year over 4000 children and young people are diagnosed with cancer.
 				</p>
+				<img src="images/hat.png" style="max-width: 5vh;">
+			</div>
+		</div>
+	</section>
+
+	<!-- Beach/Tree Visual Section -->
+	<section class="hero-section-2 uk-section beach-tree" style="min-height: 40vh;">
+		<div class="uk-container uk-flex uk-flex-center uk-flex-middle uk-height-1-1">
+			<div class="uk-text-center">
 			</div>
 		</div>
 	</section>
 
 	<!-- debreif Section -->
-	<section class="goal-section uk-section uk-section-large">
+	<section class="goal-section-2 uk-section uk-section-large">
 		<div class="uk-container uk-text-center">
 			<div class="content-overlay uk-padding-large uk-margin-auto" style="max-width: 600px;">
-				<p class="uk-text-lead uk-margin-remove white">
-					What do you need to do?  
-					It’s simple if you are in the EX23 area, just fill in the form below and we will collect your real Christmas tree on the weekend of the 3rd and 4th of January and recycle it for you. 
-					We ask a minimum of £5 per tree but of course you are welcome to donate  more!
-				</p>
+				<ul class="uk-text-lead white" style="list-style-image: url('images/holly.png');">
+					<li>
+						If you are in the EX23 area fill in the form below.
+					</li>
+					<li>
+						Be generous every pound makes a difference.<svg width="20" viewBox="0 0 132.29 120.5" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(.43865 0 0 .43865 8.1199 -19.589)">
+						<path d="m255.06 68.053a87.637 87.639 45 0 0-59.609-23.395 87.637 87.639 45 0 0-63.12 26.906l-0.0359-0.03594-0.0356 0.03558a87.637 87.639 45 0 0-63.119-26.905 87.637 87.639 45 0 0-87.639 87.639 87.637 87.639 45 0 0 26.905 63.119l-0.035992 0.036 123.92 123.92 123.93-123.93-8e-3 -8e-3a87.637 87.639 45 0 0 26.878-63.148 87.637 87.639 45 0 0-28.028-64.243z" fill="#e74c3c" stroke-width="4.7339"></path>
+						</g></svg>
+					</li>
+					<li>
+						We will contact you to confirm on any details if necessary.
+					</li>
+					<li>
+						On the weekend of the 10th and 11th of January we will collect your tree.
+					</li>
+					<li>
+						Pat yourself on the back!
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- Beach/Tree Visual Section -->
+	<section class="hero-section-3 uk-section beach-tree">
+		<div class="uk-container uk-flex uk-flex-center uk-flex-middle uk-height-1-1">
+			<div class="uk-text-center">
+			</div>
+		</div>
+	</section>
+
+	<!-- debreif Section -->
+	<section class="goal-section-2 uk-section uk-section-large">
+		<div class="uk-container uk-text-center">
+			<div class="content-overlay uk-padding-large uk-margin-auto" style="max-width: 600px; text-align: center;">
+				<ul class="uk-text-lead white" style="display: inline-block; list-style-type: none;">
+					<li style="text-align: center;">
+						Recycle your tree
+					</li>
+					<li style="text-align: center;">
+						Support research
+					</li>
+					<li style="text-align: center;">
+						Spread hope
+					</li>
+					<li style="text-align: center;">
+						Make a difference!
+					</li>
+					<li style="text-align: center;">
+						<svg width="20" viewBox="0 0 132.29 120.5" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(.43865 0 0 .43865 8.1199 -19.589)">
+						<path d="m255.06 68.053a87.637 87.639 45 0 0-59.609-23.395 87.637 87.639 45 0 0-63.12 26.906l-0.0359-0.03594-0.0356 0.03558a87.637 87.639 45 0 0-63.119-26.905 87.637 87.639 45 0 0-87.639 87.639 87.637 87.639 45 0 0 26.905 63.119l-0.035992 0.036 123.92 123.92 123.93-123.93-8e-3 -8e-3a87.637 87.639 45 0 0 26.878-63.148 87.637 87.639 45 0 0-28.028-64.243z" fill="#e74c3c" stroke-width="4.7339"></path>
+						</g></svg>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</section>
@@ -180,7 +260,7 @@
 					<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
 				
 					<p class="uk-text-lead white tcs">
-						We are only able to pick up trees in the EX23 area from Bostcastle to the south and Kilkhampton to the north. If you are unsure that you fit in this area then please conact us either through <a href="mailto: talanstrust@gmail.com">talanstrust@gmail.com</a>  or our <a href="https://www.facebook.com/talanstrust/">facebook page</a>. Orders placed that are not able to be fullfilled due to being outside of the post code range will not be able to be refunded.
+						We are only able to pick up trees in the EX23 area from Boscastle to the south and Kilkhampton to the north. If you are unsure that you fit in this area then please conact us either through <a href="mailto: talanstrust@gmail.com">talanstrust@gmail.com</a>  or our <a href="https://www.facebook.com/talanstrust/">facebook page</a>. Orders placed that are not able to be fullfilled due to being outside of the post code range will not be able to be refunded.
 					</p>
 				</div>
 			</div>
@@ -195,6 +275,7 @@
 			   <path d="m255.06 68.053a87.637 87.639 45 0 0-59.609-23.395 87.637 87.639 45 0 0-63.12 26.906l-0.0359-0.03594-0.0356 0.03558a87.637 87.639 45 0 0-63.119-26.905 87.637 87.639 45 0 0-87.639 87.639 87.637 87.639 45 0 0 26.905 63.119l-0.035992 0.036 123.92 123.92 123.93-123.93-8e-3 -8e-3a87.637 87.639 45 0 0 26.878-63.148 87.637 87.639 45 0 0-28.028-64.243z" fill="#e74c3c" stroke-width="4.7339"></path>
 			   </g></svg>
 		   </p>
+			<a href="https://www.flaticon.com/free-icons/christmas" title="christmas icons" class="uk-text-small uk-margin-remove" style="color: #666;">Christmas icons created by Umeicon - Flaticon</a>
 	   </div>
 	</section>
 
